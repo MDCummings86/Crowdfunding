@@ -11,8 +11,8 @@ To receive funding, the project must meet or exceed an initial goal, so many org
 *Use conditional formatting to fill each cell in the Percent Funded column according to a three-color scale. The scale should start at 0 with a dark shade of red, and it should transition to green at 100 and blue at 200.
 **Create a new column called Average Donation that uses a formula to find how much each project backer paid on average.
 **Create two new columns, one called Parent Category and another called Sub-Category, that use formulas to split the Category and Sub-Category column into the two new, separate columns.
-Category Stats
 
+<img width="1047" alt="image" src="https://github.com/MDCummings86/Crowdfunding/assets/126340452/d0f07874-90f4-451c-be4e-dd145f265fbb">
 
 
 **Create a new sheet with a pivot table that analyzes your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per category.
@@ -25,7 +25,9 @@ Subcategory Stats
 *The dates in the deadline and launched_at columns use Unix timestamps. Fortunately for us, this formula Links to an external site. that can be used to convert these timestamps to a normal date.
 **Create a new column named Date Created Conversion that will use this formula Links to an external site. to convert the data contained in launched_at into Excel's date format.
 **Create a new column named Date Ended Conversion that will use this formula Links to an external site. to convert the data contained in deadline into Excel's date format.
-Outcomes Based on Launch Date
+
+<img width="1044" alt="image" src="https://github.com/MDCummings86/Crowdfunding/assets/126340452/3e6f6c85-e665-49be-8611-ba05ea3cfc0f">
+
 
 **Create a new sheet with a pivot table that has a column of outcome, rows of Date Created Conversion, values based on the count of outcome, and filters based on parent category and Years.
 **Now, create a pivot-chart line graph that visualizes this new table.
@@ -84,7 +86,8 @@ In the Goal column, create 12 rows with the following headers:
 *Greater than or equal to 50000
 
 
-----A table and corresponding graph showing the percentage of projects that are successful, failed, and canceled based on their crowdfunding goal.-----
+<img width="870" alt="image" src="https://github.com/MDCummings86/Crowdfunding/assets/126340452/964c8c91-b52f-44fc-aa3f-67556bc4e107">
+
 
 *Using the COUNTIFS() formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the Number Successful, Number Failed, and Number Canceled columns with these data points.
 *Add up each of the values in the Number Successful, Number Failed, and Number Canceled columns to populate the Total Projects column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
@@ -96,14 +99,23 @@ Most people would use the number of campaign backers to assess the success of a 
 For gaining an in-depth understanding of campaign backers, evaluate the number of backers of successful and unsuccessful campaigns by creating your own summary statistics table.
 Create a new worksheet in your workbook, and create one column for the number of backers of successful campaigns and one column for unsuccessful campaigns.
 
-----A table containing a column for the number of backers of successful campaigns and a column for unsuccessful campaigns.-----
+<img width="695" alt="image" src="https://github.com/MDCummings86/Crowdfunding/assets/126340452/86f0fa90-865c-4dca-b5ab-380efdcb272e">
+
 
 Use Excel to evaluate the following values for successful campaigns, and then do the same for unsuccessful campaigns:
+
 *The mean number of backers
+
 *The median number of backers
+
 *The minimum number of backers
+
 *The maximum number of backers
+
 *The variance of the number of backers
+
 *The standard deviation of the number of backers
+
 *Use your data to determine whether the mean or the median better summarizes the data.
+
 *Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
