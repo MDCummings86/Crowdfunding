@@ -32,10 +32,17 @@ Subcategory Stats
 **Create a new sheet with a pivot table that has a column of outcome, rows of Date Created Conversion, values based on the count of outcome, and filters based on parent category and Years.
 **Now, create a pivot-chart line graph that visualizes this new table.
 
-*Create a report in Microsoft Word (See Crowdfunding Report.docx), and answer the following questions:
-**Given the provided data, what are three conclusions that we can draw about crowdfunding campaigns?
-**What are some limitations of this dataset?
-**What are some other possible tables and/or graphs that we could create, and what additional value would they provide?
+•	Given the provided data, what are three conclusions that we can draw about crowdfunding campaigns?
+We can conclude that most of the donors reached or exceeded their funding goal. Most of the donations come from plays with the least coming from world music. January has the highest number of failed donations across all platforms and years. The parent category with the highest amount of failed donations is theatre, which has almost twice as many failures as the 2nd and 3rd highest parent categories with failures in film & video and music. US has more successful donations than all other countries combined.
+
+•	What are some limitations of this dataset?
+The units of currency are not universal. It also does not cover all possible countries. We also have blurbs about each donor which appear to be unique and do not appear to be categorical, so we may have difficulty developing further answers for why one donor may be more successful than another.
+
+
+•	What are some other possible tables and/or graphs that we could create, and what additional value would they provide?
+We could develop a pie chart for each failed parent category that would show the percentage of the goal that was donated to see if we can notice any patterns. We could also use a pivot table with a bar graph to show the aggregated average donation for each category and/or country  to see if we notice trends in the country’s average donation vs the category’s average donation.  We could also use a bar chart to show how many backers each country or category has out of all of the failed pledges. 
+![image](https://github.com/MDCummings86/Crowdfunding/assets/126340452/c0bf0618-3d73-4775-8b5a-18f5a34bffa8)
+
 
 
 Crowdfunding Goal Analysis
